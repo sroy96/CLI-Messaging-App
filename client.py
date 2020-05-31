@@ -7,6 +7,9 @@ import time
 import json
 
 
+def random_char(y) :
+    return ''.join(random.choice(string.ascii_letters) for _ in range(y))
+
 
 
 if __name__ == "__main__" :
