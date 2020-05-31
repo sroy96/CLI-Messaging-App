@@ -40,8 +40,10 @@ Run ```server.py``` with correct parameters, Usage:
 Afterwards clients can connect to the server using client.py with correct parameters, Usage:
 ```
 ./client.py [HOST] [PORT] 
+
 ```
-Default is again, ```127.0.0.1 9001 ```:
+Default is again, 127.0.0.1 9001 : i.e Command ->
+python3 client.py 127.0.0.1  9001
 ```
 
 
