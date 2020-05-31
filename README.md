@@ -45,5 +45,16 @@ Afterwards clients can connect to the server using client.py with correct parame
 Default is again, 127.0.0.1 9001 : i.e Command ->
 python3 client.py 127.0.0.1  9001
 ```
+Working Example:
 
+- Server Created and Logs of the Messages:
 
+![server-log](https://github.com/sroy96/CLI-Chat-App/blob/master/server-logs.png)
+
+- Client 01 created and sending message to Client 02 and getting "ACK" after client 02 recieves:
+
+![client01](https://github.com/sroy96/CLI-Chat-App/blob/master/Client%2001.png)
+
+- Client 02 Interacting with Client 01:
+
+![client 02](https://github.com/sroy96/CLI-Chat-App/blob/master/Client02%20with%20ACK.png)
